@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title> Moderon Calculator </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+<div class="bubbles">
+    <span class="one"></span>
+    <span class="two"></span>
+    <span class="three"></span>
+    <span class="four"></span>
+    <span class="five"></span>
+    <span class="six"></span>
+    <span class="seven"></span>
+    <span class="seven"></span>
+</div>
+<div class="bubbles">
+    <span class="one"></span>
+    <span class="two"></span>
+    <span class="three"></span>
+    <span class="four"></span>
+    <span class="five"></span>
+    <span class="six"></span>
+    <span class="seven"></span>
+    <span class="seven"></span>
+</div>
+<div class="bubbles">
+    <span class="one"></span>
+    <span class="two"></span>
+    <span class="three"></span>
+    <span class="four"></span>
+    <span class="five"></span>
+    <span class="six"></span>
+    <span class="seven"></span>
+    <span class="seven"></span>
+</div>
+<div class="bubbles">
+    <span class="one"></span>
+    <span class="two"></span>
+    <span class="three"></span>
+    <span class="four"></span>
+    <span class="five"></span>
+    <span class="six"></span>
+    <span class="seven"></span>
+    <span class="seven"></span>
+</div>
+<div class="container">
+    <form action="#" name="forms">
+        <input type="text" id="name">
+        <div class="buttons">
+            <input type="button" value="AC" oneclick="forms.answer.value = ' '">
+            <input type="button" value="DEL" oneclick="forms.answer.value = forms.answer.value.substr(0, forms.answer.value.length -1)">
+            <input type="button" value="%" oneclick="forms.answer.value += '%'">
+            <input type="button" value="/" oneclick="forms.answer.value += '/'">
+        </div>
+        <div class="buttons">
+            <input type="button" value="7" oneclick="forms.answer.value += '7'">
+            <input type="button" value="8" oneclick="forms.answer.value += '8'">
+            <input type="button" value="9" oneclick="forms.answer.value += '9'">
+            <input type="button" value="*" oneclick="forms.answer.value += '*'">
+        </div>
+        <div class="buttons">
+            <input type="button" value="4" oneclick="forms.answer.value += '4'">
+            <input type="button" value="5" oneclick="forms.answer.value += '5'">
+            <input type="button" value="6" oneclick="forms.answer.value += '6'">
+            <input type="button" value="-" oneclick="forms.answer.value += '-'">
+        </div>
+        <div class="buttons">
+            <input type="button" value="1" oneclick="forms.answer.value += '1'">
+            <input type="button" value="2" oneclick="forms.answer.value += '2'">
+            <input type="button" value="3" oneclick="forms.answer.value += '3'">
+            <input type="button" value="+" oneclick="forms.answer.value += '+'">
+        </div>
+        <div class="buttons">
+            <input type="button" value="0" oneclick="forms.answer.value += '0'">
+            <input type="button" value="00" oneclick="forms.answer.value += '00'">
+            <input type="button" value="." oneclick="forms.answer.value += '.'">
+            <input type="button" value="=" oneclick="forms.answer.value = eval(forms.answer.value)">
+        </div>
+    </form>
+</div>
+    </body>
+    </html>
